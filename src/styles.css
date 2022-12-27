@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  /* background: bisque; */
+  padding: 5px;
+}
+.himg {
+  background-image: url("https://st4.depositphotos.com/6440552/21838/i/600/depositphotos_218380178-stock-photo-black-musical-notes-art-music.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 13%;
+}
+.himg h3,
+p {
+  color: white;
+
+  display: flex;
+
+  justify-content: center;
+}
+/* .himg p span {
+  margin-left: 5px;
+  color: rgb(202, 0, 0);
+} */
+.fav{
+  color: rgb(174, 201, 225);
+  font-size: 22px;
+  position: absolute;
+  right: 25px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+
+  gap: 1.5rem;
+  margin: 5%;
+  /* display: flex; */
+  /* position: relative; */
+}
+.card {
+  box-shadow: 0 1px 1px rgb(0, 0, 0, 0.3);
+}
+.pimg {
+  display: flex;
+  justify-content: center;
+}
+
+.products img {
+  width: 80px;
+  height: 180px;
+}
+
+.details {
+  margin-top: 5px;
+}
+.details p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.rating i {
+  color: blueviolet;
+}
+.pname {
+  color: black;
+}
+.price {
+  color: black;
+}
+
+.cart-button button {
+  padding: 5px;
+  width: 100%;
+
+  border: none;
+  background-color: #ffc524;
+  box-shadow: 0 1px 1px rgb(0, 0, 0, 0.3);
+}
